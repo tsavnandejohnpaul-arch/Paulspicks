@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Paul’s Picks – Honest Gear Recommendations by Tsavnande John Paul</title>
+<meta name="description" content="Hand-picked home office, tech and everyday gear recommendations by Tsavnande John Paul.">
+<style>
+:root{
+  --bg:#faf8f4;--surface:#ffffff;--text:#1d1d1f;--muted:#5f6368;--line:#e6e1d8;--accent:#e8590c;--accent-text:#ffffff;--soft:#fff1e8;
+  color-scheme:light;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#131316;--surface:#1c1c21;--text:#f2f2f4;--muted:#a0a0aa;--line:#2c2c33;--accent:#ff7a3d;--accent-text:#161616;--soft:#2a1d16;color-scheme:dark}
+}
+:root[data-theme="dark"]{--bg:#131316;--surface:#1c1c21;--text:#f2f2f4;--muted:#a0a0aa;--line:#2c2c33;--accent:#ff7a3d;--accent-text:#161616;--soft:#2a1d16;color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Georgia,"Times New Roman",serif;line-height:1.6}
+h1,h2,h3,nav,button,.tag,.btn,.eyebrow{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:58px;gap:12px}
+.logo{font-weight:800;font-size:1.1rem;text-decoration:none;letter-spacing:-.02em}
+.logo span{color:var(--accent)}
+nav{display:flex;gap:16px;font-size:.9rem;overflow-x:auto}
+nav a{text-decoration:none;color:var(--muted);white-space:nowrap}
+nav a:hover{color:var(--accent)}
+.hero{padding:56px 0 36px}
+.eyebrow{display:inline-block;background:var(--soft);color:var(--accent);font-weight:700;font-size:.78rem;padding:5px 12px;border-radius:99px;letter-spacing:.04em;text-transform:uppercase}
+h1{font-size:clamp(2rem,6vw,3.4rem);line-height:1.1;margin:16px 0 14px;letter-spacing:-.03em}
+.hero p{font-size:1.1rem;color:var(--muted);max-width:620px;margin:0 0 24px}
+.btn{display:inline-block;background:var(--accent);color:var(--accent-text);font-weight:700;text-decoration:none;padding:12px 22px;border-radius:10px;border:0;font-size:.95rem;cursor:pointer}
+.btn:hover{opacity:.9}
+.disclose{background:var(--soft);border:1px solid var(--line);border-radius:10px;padding:12px 16px;font-size:.88rem;color:var(--muted);margin-bottom:8px}
+section{padding:36px 0}
+h2{font-size:1.6rem;letter-spacing:-.02em;margin:0 0 6px}
+.sub{color:var(--muted);margin:0 0 22px}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
+.filters button{background:var(--surface);color:var(--text);border:1px solid var(--line);padding:8px 16px;border-radius:99px;font-size:.88rem;cursor:pointer}
+.filters button.on{background:var(--accent);color:var(--accent-text);border-color:var(--accent)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:8px}
+.icon{font-size:2rem}
+.tag{font-size:.72rem;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:.05em}
+.card h3{margin:0;font-size:1.05rem}
+.card p{margin:0;color:var(--muted);font-size:.93rem;flex:1}
+.card .btn{text-align:center;margin-top:6px;padding:10px 16px}
+.guides{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.guide{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px}
+.guide h3{margin:0 0 8px}
+.guide p,.guide li{color:var(--muted);font-size:.95rem}
+.guide ul{padding-left:18px;margin:8px 0 0}
+.about{display:grid;grid-template-columns:auto 1fr;gap:22px;align-items:center}
+.avatar{width:88px;height:88px;border-radius:50%;background:var(--accent);color:var(--accent-text);display:flex;align-items:center;justify-content:center;font:800 1.8rem -apple-system,Helvetica,Arial,sans-serif}
+.legal p{color:var(--muted);font-size:.92rem}
+.news{display:flex;gap:8px;flex-wrap:wrap}
+.news input{flex:1;min-width:200px;padding:12px 14px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--text);font-size:1rem}
+.art{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:4px 20px;margin-bottom:12px}.art summary{cursor:pointer;font:700 1.05rem -apple-system,Helvetica,Arial,sans-serif;padding:14px 0}.art p,.art li{color:var(--muted);font-size:.97rem}.art h4{margin:14px 0 4px;font-family:-apple-system,Helvetica,Arial,sans-serif;font-size:.95rem}.art ul{padding-left:20px}.art .note{font-size:.85rem;border-top:1px solid var(--line);padding-top:10px;margin:14px 0}
+footer{border-top:1px solid var(--line);padding:28px 0 40px;color:var(--muted);font-size:.85rem;font-family:-apple-system,Helvetica,Arial,sans-serif}
+@media(max-width:560px){.about{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="logo" href="#top">Paul’s<span> Picks</span></a>
+  <nav><a href="#picks">Top Picks</a><a href="#guides">Guides</a><a href="#articles">Articles</a><a href="#about">About</a><a href="#privacy">Privacy</a></nav>
+</div></header>
+
+<main id="top">
+<div class="wrap">
+  <div class="hero">
+    <span class="eyebrow">Hand-picked by Tsavnande John Paul</span>
+    <h1>Gear worth buying, without the guesswork.</h1>
+    <p>I research home office, tech and everyday essentials so you can skip the endless scrolling and buy with confidence.</p>
+    <a class="btn" href="#picks">Browse top picks</a>
+  </div>
+  <div class="disclose"><strong>Disclosure:</strong> As an Amazon Associate I earn from qualifying purchases. This means I may earn a small commission if you buy through my links, at no extra cost to you.</div>
+</div>
+
+<section id="picks"><div class="wrap">
+  <h2>Top Picks</h2>
+  <p class="sub">Black Friday is November 27 and Cyber Monday is November 30, so deals change fast. Tap “View on Amazon” to see today’s price and reviews.</p>
+  <div class="filters" id="filters"></div>
+  <div class="grid" id="grid"></div>
+</div></section>
+
+<section id="guides"><div class="wrap">
+  <h2>Quick Buying Guides</h2>
+  <p class="sub">What I look at before recommending anything.</p>
+  <div class="guides">
+    <div class="guide"><h3>🪑 Setting up a home office</h3>
+      <p>Comfort first, gadgets second.</p>
+      <ul><li>Start with a supportive chair and a monitor at eye level.</li><li>Add good lighting before adding accessories.</li><li>Keep cables tidy so the desk stays calm.</li></ul></div>
+    <div class="guide"><h3>🎧 Choosing tech that lasts</h3>
+      <p>Cheap isn’t always affordable.</p>
+      <ul><li>Read the 3-star reviews, they’re the most honest.</li><li>Check warranty length and battery life.</li><li>Prefer well-known brands with replaceable parts.</li></ul></div>
+    <div class="guide"><h3>🏠 Everyday essentials</h3>
+      <p>Small upgrades, big daily impact.</p>
+      <ul><li>Buy once, buy right for items you use daily.</li><li>Compare price per use, not just sticker price.</li><li>Watch for seasonal sales before checking out.</li></ul></div>
+  </div>
+</div></section>
+
+<section id="articles"><div class="wrap">
+  <h2>Articles</h2>
+  <p class="sub">Plain-English advice to help you choose well. Tap a title to read.</p>
+
+  <details class="art" open><summary>How to Choose an Ergonomic Office Chair</summary>
+    <p>If you sit for hours every day, your chair is the most important thing on your desk. A good one won’t make work fun, but it can stop the end-of-day aches that come from slouching.</p>
+    <h4>What to look for</h4>
+    <ul><li><strong>Lumbar support:</strong> the lower back should be supported, ideally with adjustable height or depth.</li><li><strong>Seat height and depth:</strong> your feet should rest flat and there should be a small gap between the seat edge and the back of your knees.</li><li><strong>Adjustable armrests:</strong> your shoulders should stay relaxed while typing.</li><li><strong>Breathable material:</strong> mesh stays cooler during long sessions; padded fabric feels softer.</li><li><strong>Warranty:</strong> a longer warranty usually signals a sturdier build.</li></ul>
+    <h4>Who it’s for</h4>
+    <p>Anyone working from home more than a few hours a day. If you’re between sizes or very tall, check the weight and height limits before ordering.</p>
+    <p class="note">Prices and models change often, so check the latest reviews and details on Amazon before you buy.</p>
+    <a class="btn" target="_blank" rel="sponsored nofollow noopener" href="https://www.amazon.com/s?k=ergonomic+office+chair&amp;tag=yourtag-20" data-aff="ergonomic office chair">See ergonomic chairs on Amazon</a><p></p>
+  </details>
+
+  <details class="art"><summary>What to Look for in Noise-Cancelling Headphones</summary>
+    <p>Noise-cancelling headphones are useful for open offices, flights, commutes and noisy homes. Marketing makes them all sound the same, so here is what actually matters.</p>
+    <h4>Key features</h4>
+    <ul><li><strong>Cancelling strength:</strong> works best on steady sounds like engines and fans, and less on voices.</li><li><strong>Comfort:</strong> soft pads and light weight matter if you wear them for hours.</li><li><strong>Battery life:</strong> aim for a full workday or more on one charge.</li><li><strong>Microphone quality:</strong> important if you take lots of calls.</li><li><strong>Connection:</strong> multipoint Bluetooth lets you switch between laptop and phone.</li></ul>
+    <h4>Tip</h4>
+    <p>Read the three-star reviews. They usually describe real comfort and connection issues that five-star reviews skip.</p>
+    <a class="btn" target="_blank" rel="sponsored nofollow noopener" href="https://www.amazon.com/s?k=noise+cancelling+headphones&amp;tag=yourtag-20" data-aff="noise cancelling headphones">See headphones on Amazon</a><p></p>
+  </details>
+
+  <details class="art"><summary>Setting Up a Home Office on a Budget</summary>
+    <p>You don’t need a showroom desk to work well from home. Spend on the things your body touches, and save on the rest.</p>
+    <h4>Spend first on</h4>
+    <ul><li>A supportive chair</li><li>A monitor or laptop stand so the screen sits at eye level</li><li>Good lighting, ideally a dimmable desk lamp</li></ul>
+    <h4>Save on</h4>
+    <ul><li>Desk decor and fancy accessories</li><li>Cable organizers, where cheap clips and ties work fine</li><li>Second-hand desks, which are often great value</li></ul>
+    <h4>Easy upgrades</h4>
+    <p>A wireless mouse, a small plant and a tidy cable setup make the space feel calm and cost very little.</p>
+    <a class="btn" target="_blank" rel="sponsored nofollow noopener" href="https://www.amazon.com/s?k=led+desk+lamp+dimmable&amp;tag=yourtag-20" data-aff="led desk lamp dimmable">See desk lamps on Amazon</a><p></p>
+  </details>
+
+  <details class="art"><summary>Are Smart Plugs Worth It?</summary>
+    <p>A smart plug turns an ordinary lamp or appliance into something you can switch on and off from your phone or with a timer. They’re one of the cheapest ways to try a smart home.</p>
+    <h4>Good uses</h4>
+    <ul><li>Lamps that turn on at sunset</li><li>Switching off coffee makers or heaters you forgot</li><li>Holiday lights on a schedule</li></ul>
+    <h4>Before you buy</h4>
+    <ul><li>Make sure they work with your phone and voice assistant.</li><li>Check they support your Wi-Fi band (many need 2.4 GHz).</li><li>Check the power rating before using one with high-wattage appliances.</li></ul>
+    <p class="note">Keep smart plugs away from devices that could be unsafe if they switch on unattended.</p>
+    <a class="btn" target="_blank" rel="sponsored nofollow noopener" href="https://www.amazon.com/s?k=smart+plug+wifi+4+pack&amp;tag=yourtag-20" data-aff="smart plug wifi 4 pack">See smart plugs on Amazon</a><p></p>
+  </details>
+</div></section>
+
+<section id="about"><div class="wrap">
+  <div class="about">
+    <div class="avatar">JP</div>
+    <div>
+      <h2>About me</h2>
+      <p class="sub" style="margin-bottom:0">Hi, I’m Tsavnande John Paul. I started Paul’s Picks to share honest, practical recommendations for products I’d genuinely consider buying myself. If something is worth your money, I’ll say so. If it isn’t, I’ll say that too.</p>
+    </div>
+  </div>
+</div></section>
+
+<section id="subscribe"><div class="wrap">
+  <h2>Get new picks by email</h2>
+  <p class="sub">Add your email service link below in the code, or contact me directly.</p>
+  <form class="news" id="newsForm" onsubmit="return false">
+    <input type="email" id="email" placeholder="you@example.com" aria-label="Email address">
+    <button class="btn" id="subBtn" type="button">Notify me</button>
+  </form>
+  <p id="subMsg" class="sub" style="margin-top:10px"></p>
+</div></section>
+
+<section id="privacy" class="legal"><div class="wrap">
+  <h2>Privacy &amp; Affiliate Policy</h2>
+  <p><strong>Affiliate disclosure.</strong> Paul’s Picks is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate I earn from qualifying purchases.</p>
+  <p><strong>Privacy.</strong> This site does not collect personal data unless you choose to contact me. Amazon and your browser may use cookies when you follow a link to Amazon; please see Amazon’s own privacy notice for details.</p>
+  <p><strong>Accuracy.</strong> Prices, availability and product details change often. Always confirm the current details on Amazon before buying.</p>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <p>© <span id="yr"></span> Tsavnande John Paul · Paul’s Picks</p>
+  <p>As an Amazon Associate I earn from qualifying purchases. Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its affiliates.</p>
+</div></footer>
+
+<script>
+// ====== EDIT THESE ======
+var AFFILIATE_TAG = "yourtag-20";   // your Amazon Associates tracking ID
+var CONTACT_EMAIL = "Tsavnandejohnpaul@gmail.com";
+// Products: use "asin" for a direct product link, or "q" for an Amazon search link.
+var PRODUCTS = [
+  {name:"Ergonomic Office Chair",cat:"Home Office",icon:"🪑",blurb:"Lumbar support and adjustable arms for long workdays.",q:"ergonomic office chair"},
+  {name:"Standing Desk",cat:"Home Office",icon:"🖥️",blurb:"Switch between sitting and standing to stay energized.",q:"electric standing desk"},
+  {name:"LED Desk Lamp",cat:"Home Office",icon:"💡",blurb:"Adjustable brightness that’s easy on the eyes.",q:"led desk lamp dimmable"},
+  {name:"Noise-Cancelling Headphones",cat:"Tech",icon:"🎧",blurb:"Focus anywhere with strong noise cancelling.",q:"noise cancelling headphones"},
+  {name:"Wireless Mouse",cat:"Tech",icon:"🖱️",blurb:"Comfortable, quiet and long battery life.",q:"ergonomic wireless mouse"},
+  {name:"Portable Power Bank",cat:"Tech",icon:"🔋",blurb:"Never run out of charge on the go.",q:"portable power bank 20000mah"},
+  {name:"Smart Plug 4-Pack",cat:"Smart Home",icon:"🔌",blurb:"Control lamps and appliances from your phone.",q:"smart plug wifi 4 pack"},
+  {name:"Video Doorbell",cat:"Smart Home",icon:"🔔",blurb:"See who’s at the door from anywhere.",q:"video doorbell camera"},
+  {name:"Insulated Water Bottle",cat:"Everyday",icon:"🥤",blurb:"Keeps drinks cold for 24 hours or hot for 12.",q:"insulated water bottle"},
+  {name:"Compact Backpack",cat:"Everyday",icon:"🎒",blurb:"Fits a laptop and daily essentials, built to last.",q:"laptop backpack water resistant"},
+  {name:"Cable Organizer Kit",cat:"Home Office",icon:"🧰",blurb:"Tame the desk cable jungle in minutes.",q:"cable management kit desk"},
+  {name:"Electric Kettle",cat:"Everyday",icon:"☕",blurb:"Fast boil, auto shut-off, great for tea and coffee.",q:"electric kettle stainless steel"},
+  {name:"Robot Vacuum & Mop",cat:"Smart Home",icon:"🤖",blurb:"Hands-free floor cleaning, a top gift and sale-season favorite.",q:"robot vacuum and mop"},
+  {name:"HEPA Air Purifier",cat:"Smart Home",icon:"🌬️",blurb:"Cleaner air for bedrooms and home offices.",q:"hepa air purifier"},
+  {name:"Espresso Machine",cat:"Kitchen",icon:"☕",blurb:"Café-style coffee at home for coffee lovers.",q:"espresso machine home"},
+  {name:"Air Fryer",cat:"Kitchen",icon:"🍟",blurb:"Quick, crispy meals with less oil and less cleanup.",q:"air fryer"},
+  {name:"Cordless Impact Driver Kit",cat:"Everyday",icon:"🔧",blurb:"A useful gift for DIY projects around the house.",q:"cordless impact driver kit"},
+  {name:"Fitness Tracker",cat:"Tech",icon:"⌚",blurb:"Track steps, sleep and workouts at a friendly price.",q:"fitness tracker watch"}
+];
+// ========================
+function link(p){
+  var base="https://www.amazon.com/";
+  var path = p.asin ? "dp/"+encodeURIComponent(p.asin)+"?" : "s?k="+encodeURIComponent(p.q)+"&";
+  return base+path+"tag="+encodeURIComponent(AFFILIATE_TAG);
+}
+var cats=["All"].concat(PRODUCTS.map(function(p){return p.cat}).filter(function(c,i,a){return a.indexOf(c)===i}));
+var current="All";
+function render(){
+  var f=document.getElementById("filters");
+  f.innerHTML="";
+  cats.forEach(function(c){
+    var b=document.createElement("button");
+    b.textContent=c;b.className=c===current?"on":"";
+    b.onclick=function(){current=c;render()};
+    f.appendChild(b);
+  });
+  var g=document.getElementById("grid");
+  g.innerHTML="";
+  PRODUCTS.filter(function(p){return current==="All"||p.cat===current}).forEach(function(p){
+    var d=document.createElement("div");d.className="card";
+    d.innerHTML='<div class="icon"></div><div class="tag"></div><h3></h3><p></p><a class="btn" target="_blank" rel="sponsored nofollow noopener">View on Amazon</a>';
+    d.querySelector(".icon").textContent=p.icon;
+    d.querySelector(".tag").textContent=p.cat;
+    d.querySelector("h3").textContent=p.name;
+    d.querySelector("p").textContent=p.blurb;
+    d.querySelector("a").href=link(p);
+    g.appendChild(d);
+  });
+}
+render();
+document.querySelectorAll("a[data-aff]").forEach(function(a){a.href=link({q:a.getAttribute("data-aff")})});
+document.getElementById("yr").textContent=new Date().getFullYear();
+document.getElementById("subBtn").onclick=function(){
+  var e=document.getElementById("email").value.trim();
+  var m=document.getElementById("subMsg");
+  if(!/^\S+@\S+\.\S+$/.test(e)){m.textContent="Please enter a valid email address.";return}
+  window.location.href="mailto:"+CONTACT_EMAIL+"?subject="+encodeURIComponent("Add me to the list")+"&body="+encodeURIComponent("Please add "+e+" to your email list.");
+  m.textContent="Thanks! Your email app should open to confirm.";
+};
+</script>
+</body>
+</html>
